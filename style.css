@@ -132,6 +132,11 @@ blockquote.text{
     width: 175px;
 }
 
+#bayarea {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 450px;
+}
+
 .center {
     margin: auto; display: block; width: fit-content; 
 }
