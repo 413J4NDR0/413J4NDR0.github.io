@@ -8,6 +8,15 @@ body, html {
     letter-spacing: .1px;
 }
 
+.link {
+    color: darkred;
+    text-decoration: none;
+}
+
+::selection {
+    background: #ff5353; 
+}
+
 @media screen and (max-width: 600px) {
     *, div.navbar a, p.text, div.navbar div.dropdown div, blockquote.text, button, div.col-12 blockquote, #navbar1 {
         font-size:12px;
@@ -52,6 +61,7 @@ body, html {
 
 .navbar .icon {
     display: none;
+    color: #fff;
 }
 .warning{
     display:none;
@@ -134,12 +144,15 @@ blockquote.text{
 
 #bayarea {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    width: 450px;
-
+    width: 375px;
 }
 
 .center {
     margin: auto; display: block; width: fit-content; 
+}
+
+.center img {
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.4);
 }
 
 /*Properties for the Navbar*/
