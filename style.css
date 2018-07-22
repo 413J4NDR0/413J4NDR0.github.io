@@ -126,6 +126,16 @@ blockquote.text{
     display: table;
 }
 
+#profile {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    width: 175px;
+}
+
+.center {
+    margin: auto; display: block; width: fit-content; 
+}
+
 /*Properties for the Navbar*/
 .navbar {
     overflow: hidden;
