@@ -235,8 +235,8 @@ blockquote.text{
 
 .text {
     text-align: justify;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     line-height: 150%;
     font-size: 16px;
 }
