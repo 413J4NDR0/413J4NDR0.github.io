@@ -22,6 +22,10 @@ body, html {
         font-size:12px;
     }
 
+    #bayarea, #syria {
+        display: none;
+    }
+
     #pew, div.navbar div.dropdown div *, div.navbar div, div.navbar #surv{
         display: none;
     }
