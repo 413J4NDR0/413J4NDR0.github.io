@@ -66,3 +66,12 @@ from{transform:scale(0)}
 to{transform:scale(1)}
 }
 .footer{text-align:right;background-color:#900;color:#fff;padding:unset;padding-top:1.5%;padding-right:1.5%;padding-bottom:.75%}
+Fading animation .fade{-webkit-animation-name:fade;-webkit-animation-duration:1.5s;animation-name:fade;animation-duration:1.5s}
+@-webkit-keyframes fade{
+from{opacity:0}
+to{opacity:1}
+}
+@keyframes fade{
+from{opacity:0}
+to{opacity:1}
+}
