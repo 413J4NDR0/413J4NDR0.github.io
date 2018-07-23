@@ -30,8 +30,12 @@ h2 {
         font-size:12px;
     }
 
-    #bayarea, #syria, #logo {
+    #syria, #logo {
         display: none;
+    }
+
+    #bayarea {
+        width: 175px !important;
     }
 
     #pew, div.navbar div.dropdown div *, div.navbar div, div.navbar #surv{
@@ -149,14 +153,12 @@ blockquote.text{
 }
 
 #profile {
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 50%;
     width: 175px;
 }
 
 #bayarea {
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    width: 375px;
+    width: 425px;
 }
 
 .center {
@@ -165,6 +167,7 @@ blockquote.text{
 
 .center img {
     box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.4);
+    border-radius: 5px;
 }
 
 /*Properties for the Navbar*/
