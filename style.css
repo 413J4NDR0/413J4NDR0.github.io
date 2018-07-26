@@ -6,7 +6,7 @@ h2, h1{padding-left:7.5%}
 ::selection{background:#ff5353;}
 @media screen and (max-width:600px){
 #navbar1,*,blockquote.text,button,div.col-12 blockquote,div.navbar a,div.navbar div.dropdown div,p.text{font-size:12px}
-#logo,#syria{display:none}
+.logo,#syria{display:none}
 #bayarea{width:175px!important}
 #pew,div.navbar #surv,div.navbar div,div.navbar div.dropdown div *{display:none}
 div.navbar a.mobileMenu{display:block}
