@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="logo.png">
+    <title>Alejandro Ortega</title>
+</head>
+<body>
+    <div class="navbar" id="navbar1" >
+        <a href="javascript:void(0);" class="mobileMenu">Menu</a>
+        <img class="logo" src="logo.png" width="50px" alt="">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="posts.html">Posts</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="menu()">&#9776;</a>
+    </div>
+    <div class="backgroundImage"></div>
+    <div class="col-12">
+        <p class="text">
+             
+        </p>
+        
+    </div>
+
+    <div class="footer col-12">
+        <div style="margin: auto; display: block; width: fit-content">
+            &copy; Alejandro Ortega, 2018. All Rights Reserved
+        </div>
+    </div>
+    <script>
+        function menu() {
+            var x = document.getElementById("navbar1");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+    
+    
+</body>
+</html>
