@@ -45,7 +45,7 @@ blockquote.text{font-size:24px}
 .row::after{content:"";clear:both;display:table}
 #profile{border-radius:50%;width:175px}
 #bayarea{width:425px}
-.center{margin:auto;display:block;width:fit-content}
+.center{margin:auto;display:block;width:fit-content; width: -moz-fit-content}
 .center img{box-shadow:0 6px 12px 0 rgba(0,0,0,.4);border-radius:5px}
 .navbar{overflow:hidden;background-color:#900;overflow:hidden;padding-left:10%}
 .logo{float:left;padding:14px 14px}
