@@ -1,5 +1,6 @@
 ﻿body,html{background-color:#fefdfb;margin:0;font-family:Source Sans Pro,Helvetica,sans-serif;color:#000;-webkit-font-smoothing:antialiased;letter-spacing:.1px}
 .link{color:#8b0000;text-decoration:none}
+a {text-decoration: none; color: inherit;}
 ol,ul{padding-left:15%!important}
 h2, h1, h3{padding-left:7.5%}
 .details{padding-left: 7.5%; }
