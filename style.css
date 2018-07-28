@@ -1,13 +1,13 @@
 ﻿body,html{background-color:#fefdfb;margin:0;font-family:Source Sans Pro,Helvetica,sans-serif;color:#000;-webkit-font-smoothing:antialiased;letter-spacing:.1px}
 .link{color:#8b0000;text-decoration:none}
 ol,ul{padding-left:15%!important}
-h2, h1{padding-left:7.5%}
+h2, h1, h3{padding-left:7.5%}
 .details{padding-left: 7.5%; }
 ::selection{background:#ff5353;}
 @media screen and (max-width:975px){
 #navbar1,*,blockquote.text,button,div.col-12 blockquote,div.navbar a,div.navbar div.dropdown div,p.text{font-size:12px}
 .logo,#syria{display:none}
-.backgroundImage{height: 300px !important}
+.backgroundImage{height: 300px !important; min-height: unset !important}
 #bayarea{width:175px!important}
 #pew,div.navbar #surv,div.navbar div,div.navbar div.dropdown div *{display:none}
 div.navbar a.mobileMenu{display:block}
@@ -26,7 +26,7 @@ div.navbar.responsive a{float:none;display:block;text-align:left}
 .navbar .icon{display:none;color:#fff}
 .warning{display:none}
 .mobileMenu{display:none}
-.info {position: absolute; top: 5%;left: 5%; ;background-color: rgba(99, 0, 0, .65);padding: 1%}
+.info {position: absolute; top: 5%;left: 5%; ;background-color: rgba(99, 0, 0, .65);padding: 1%; margin-right: 5%; border-radius: 7.5px;-webkit-animation-name:fade;-webkit-animation-duration:3.5s;animation-name:fade;animation-duration:3.5s;}
 blockquote.text{font-size:24px}
 *{box-sizing:border-box}
 .col-1{width:8.33%}
@@ -58,7 +58,7 @@ blockquote.text{font-size:24px}
 .dropdown-content a{float:none;font-size:16px;color:#000;padding:8px 12px;text-decoration:none;display:block;text-align:left}
 .dropdown-content a:hover{background-color:#f1f1f1}
 .dropdown:hover .dropdown-content{display:block}
-.backgroundImage{background-image:url(img/background/laborDeReyes.jpg);height:95vh;background-position:50% 55%;background-repeat:no-repeat;background-size:cover;box-shadow:0 6px 12px 0 rgba(0,0,0,.4);-webkit-animation-name:fade;-webkit-animation-duration:1.5s;animation-name:fade;animation-duration:1.5s}
+.backgroundImage{background-image:url(img/background/laborDeReyes.jpg);height:95vh;background-position:50% 55%;background-repeat:no-repeat;background-size:cover;box-shadow:0 6px 12px 0 rgba(0,0,0,.4);-webkit-animation-name:fade;-webkit-animation-duration:1.5s;animation-name:fade;animation-duration:1.5s;}
 .text{text-align:justify;padding-left:10%;padding-right:10%;line-height:150%;font-size:16px}
 .modal{display:none;position:fixed;z-index:1;padding-top:100px;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,.9)}
 .modal-content{margin:auto;display:block;width:80%;max-width:700px}
@@ -71,7 +71,7 @@ to{-webkit-transform:scale(1)}
 from{transform:scale(0)}
 to{transform:scale(1)}
 }
-.footer{text-align:right;background-color:#900;color:#fff;padding:unset;padding-top:1.5%;padding-right:1.5%;padding-bottom:.75%}
+.footer{background-color:#660000;color:#fff;padding:unset;padding-top:1.5%;padding-right:1.5%;padding-bottom:.75%}
 Fading animation .fade{-webkit-animation-name:fade;-webkit-animation-duration:1.5s;animation-name:fade;animation-duration:1.5s}
 @-webkit-keyframes fade{
 from{opacity:0}
