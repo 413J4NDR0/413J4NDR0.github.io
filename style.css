@@ -7,14 +7,12 @@ h2, h1, h3{padding-left:7.5%}
 .post-card:hover{background-color: #8b0000; color: white}
 @media screen and (max-width:975px){
 .post-card{width: 100% !important}
-#navbar1,*,blockquote.text,button,div.col-12 blockquote,div.navbar a,div.navbar div.dropdown div,p.text{font-size:12px}
 .logo,#syria{display:none}
 .backgroundImage{height: 300px !important; min-height: unset !important}
 #bayarea{width:175px!important; height: auto !important;}
 #pew,div.navbar #surv,div.navbar div,div.navbar div.dropdown div *{display:none}
 div.navbar a.mobileMenu{display:block}
 div.col-12 p.warning{display:block}
-div#chartWrap{display:none}
 div.navbar a:not(:first-child){display:none}
 div.navbar a.icon{float:right;display:block}
 div.navbar.responsive{position:relative}
