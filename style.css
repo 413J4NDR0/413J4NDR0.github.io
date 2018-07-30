@@ -9,6 +9,7 @@ h2, h1, h3{padding-left:7.5%}
 .post-card{width: 100% !important}
 .logo,#syria{display:none}
 .backgroundImage{height: 300px !important; min-height: unset !important}
+div.footer{font-size: .85em !important;}
 #bayarea{width:175px!important; height: auto !important;}
 #pew,div.navbar #surv,div.navbar div,div.navbar div.dropdown div *{display:none}
 div.navbar a.mobileMenu{display:block}
