@@ -7,6 +7,8 @@ h2, h1, h3{padding-left:7.5%}
 .post-card:hover{background-color: #8b0000; color: white}
 @media screen and (max-width:975px){
 .post-card{width: 100% !important}
+.text{font-size: .75rem !important}
+body, .navbar a {font-size: .75rem !important}
 .logo,#syria{display:none}
 .backgroundImage{height: 300px !important; min-height: unset !important}
 div.footer,div.info{font-size: .75rem !important}
