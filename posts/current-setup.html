@@ -3,44 +3,35 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" href="../logo.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <title>Alejandro Ortega</title>
 </head>
 <body>
     <div class="navbar" id="navbar1" >
         <a href="javascript:void(0);" class="mobileMenu">Menu</a>
-        <img class="logo" src="logo.png" width="50px" alt="">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="posts.html">Blog</a>
-        <a href="about.html">About</a>
+        <img class="logo" src="../logo.png" width="50px" alt="">
+        <a href="../index.html">Home</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../posts.html">Blog</a>
+        <a href="../about.html">About</a>
         <a href="javascript:void(0);" class="icon" onclick="menu()"><i class="fas fa-bars"></i></a>
     </div>
-    <div class="col-12">
-        <a href="posts/current-setup.html">
-            <div class="col-4 post-card" style="border-radius: 5px">
-                <div> <img src="img/background/languages-software.jpg" style="width: auto !important; height: auto !important; max-width: 100%;border-radius: 5px"> </div>
-                <h2 style="margin-bottom: 1%; padding-left: unset"> My Current Development Setup</h2>
-                <span >30 July 2018</span>
+    <div class="container">
+        <div class="backgroundImage" style="background-image: url(../img/background/languages-software.jpg);background-position:0% 70%; width: auto"></div>
+        <div class="info">
+            <div class="name" style="font-family: 'Garamond';">
+                <h1 style="padding-left: unset">My Current Development Setup</h1>
             </div>
-        </a>
-        <a href="posts/jose-aldo.html">
-            <div class="col-4 post-card" style="border-radius: 5px">
-                <div> <img src="img/background/jose-aldo.jpg" style="width: auto !important; height: auto !important; max-width: 100%;border-radius: 5px"> </div>
-                <h2 style="margin-bottom: 1%; padding-left: unset"> The Fighter Known as Scarface</h2>
-                <span >29 July 2018</span>
-            </div>
-        </a>
-        <a href="posts/three-years-at-duke.html">
-        <div class="col-4 post-card" style="border-radius: 5px">
-            <div> <img src="img/background/chapel.jpg" style="width: auto !important; height: auto !important; max-width: 100%;border-radius: 5px"> </div>
-            <h2 style="margin-bottom: 1%; padding-left: unset"> 3 Years at Duke: What I've Learned So Far</h2>
-            <span >28 July 2018</span>
+            <div class="details" style="padding-left: unset">30 July 2018</div>
         </div>
-        </a>
+    </div>
+    <div class="col-12" style="margin-top: 3%; margin-bottom: 3%">
+        <div class="text">
+
+        </div>            
     </div>
     <div class="footer col-12" style="padding:unset">
         <div class="col-12" style="background-color: #660000 !important; padding-top: 1.5%; padding-bottom: 3%">
@@ -67,7 +58,7 @@
             </div>
         </div>
         <div class="col-12" >
-            <div class="center">&copy; Alejandro Ortega, 2018. All Rights Reserved</div>
+            <div class="center" >&copy; Alejandro Ortega, 2018. All Rights Reserved</div>
         </div>
     </div>
     <script>
@@ -80,7 +71,5 @@
             }
         }
     </script>
-    
-    
 </body>
 </html>
