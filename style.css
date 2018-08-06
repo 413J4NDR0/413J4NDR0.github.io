@@ -10,8 +10,11 @@ h2, h1, h3{padding-left:7.5%}
 .text{font-size: .75rem !important}
 body, .navbar a {font-size: .75rem !important}
 .logo{display:none}
+#canvas {height: unset !important;}
+.info {top: 20% !important;}
+#map-wrapper {width: 100% !important;max-width: auto; max-height: 100vh;}
 .backgroundImage{height: 300px !important; min-height: unset !important}
-div.footer,div.info{font-size: .75rem !important}
+div.footer,div#info{font-size: .75rem !important}
 div.footer a{font-size: .63rem !important;}
 #bayarea{width:175px!important; height: auto !important;}
 #pew,div.navbar #surv,div.navbar div,div.navbar div.dropdown div *{display:none}
@@ -30,7 +33,7 @@ div.navbar.responsive a{float:none;display:block;text-align:left}
 .navbar .icon{display:none;color:#fff}
 .warning{display:none}
 .mobileMenu{display:none}
-.info {position: absolute; top: 5%;left: 5%; ;background-color: rgba(99, 0, 0, .75);padding: 1%; margin-right: 5%; border-radius: 7.5px;-webkit-animation-name:fade;-webkit-animation-duration:3.5s;animation-name:fade;animation-duration:3.5s;}
+#info {position: absolute; top: 5%;left: 5%; ;background-color: rgba(99, 0, 0, .75);padding: 1%; margin-right: 5%; border-radius: 7.5px;-webkit-animation-name:fade;-webkit-animation-duration:3.5s;animation-name:fade;animation-duration:3.5s;}
 blockquote.text{font-size:24px}
 *{box-sizing:border-box}
 .col-1{width:8.33%}
@@ -86,7 +89,7 @@ from{opacity:0}
 to{opacity:1}
 }
 #map-wrapper * {width: inherit;}
-.infobox {position: absolute;top: 25%;background-color: #2f3f4f;border-radius: 10px;padding-left: 3%; padding-right: 3%; padding-bottom: 1.5%;display: none;width: fit-content;}
-.infobox h3 {white-space:nowrap; overflow:hidden;text-overflow:ellipsis;padding: unset}
+.info {position: absolute;top: 25%;background-color: #2f3f4f;border-radius: 10px;padding-left: 3%; padding-right: 3%; padding-bottom: 1.5%;display: none;width: fit-content;}
+.info h3 {white-space:nowrap; overflow:hidden;text-overflow:ellipsis;padding: unset}
 #canvas {background-color: #6c6c71; color: white;height: 100vh;position: relative;}
 #svg {max-height: inherit}
