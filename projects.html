@@ -9,6 +9,8 @@
     <title>Alejandro Ortega</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="https://ortega-alejandro.github.io/kartesian/js/snap.svg-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -61,12 +63,17 @@
             My contributions to this project consisted of:
         </p>
 
-        <h2><a class="link" target="_blank"  href="https://github.com/ortega-alejandro/dynamic-map">DynamicMap</a></h1>
+        <h2><a class="link" target="_blank"  href="https://github.com/ortega-alejandro/dynamic-map">Kartesian</a></h1>
 
-        <div class='center'>
-            <a class="link" target="_blank"  href="https://ortega-alejandro.github.io/dynamic-map">
-                <img id="dynamap" src="img/dynamic-map.png" alt="DynamicMap Example" style="max-width:50vw; height: auto" />
-            </a>
+        <div class="col-12" id="canvas">
+            <h1 style="display: inline-block;" id="map-title">Kartesian</h1>
+            <div class="center" id="map-wrapper" style="width: 50vw; max-height: 75vh">
+                <object type="image/svg+xml" data="https://ortega-alejandro.github.io/kartesian/img/yemen.svg" id="svg" style="max-height: inherit"></object>
+            </div>
+            <div class="info" id="infobox">
+                <h3 id="entity-name"></h3>
+                <div id="pop"></div>
+            </div>
         </div>
 
         <div class="text">
@@ -78,11 +85,6 @@
         </div>
 
         <h2 ><a class="link" target="_blank"  href="https://ortega-alejandro.github.io/syrian-refugee-crisis-project">Photojournalism and the Syrian Refugee Crisis Project</a></h1>
-        <div class="center">
-            <a class="link" target="_blank"  href="https://ortega-alejandro.github.io/syrian-refugee-crisis-project">
-                <img id="syria" src="img/syrian-refugee-project.png" style="max-width:50vw; height: auto">
-            </a>
-        </div>
         <p class="text">
             Duke University Information Initiative Project analyzing the dissemination of images from the 
             Syrian Refugee Crisis. I was given significant freedom to tackle this project from my project leads,
@@ -126,6 +128,13 @@
             <div class="center" >&copy; Alejandro Ortega, 2018. All Rights Reserved</div>
         </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-database.js"></script>
+    <script src="https://ortega-alejandro.github.io/kartesian/js/setup.js"></script>
+    <script src="https://ortega-alejandro.github.io/kartesian/js/dynamicMap-v2.js"></script>
+    <script>
+        Cormap("yemen");
+    </script>
     <script>
         function menu() {
             var x = document.getElementById("navbar1");
