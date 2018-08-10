@@ -27,6 +27,7 @@ div.navbar.responsive a.icon{position:absolute;right:0;top:0}
 div.navbar.responsive a{float:none;display:block;text-align:left}
 .placard-content {width: 100% !important; margin: unset !important;margin-bottom: 2.5% !important;}
 .placard-content * {padding: 0% !important; margin: 0%}
+ol, ul {padding-left: 20px}
 }
 .container {position: relative;text-align: left;color: white;}
 .name {position: relative;}
