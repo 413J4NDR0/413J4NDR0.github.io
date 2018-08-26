@@ -28,7 +28,7 @@ div.navbar.responsive a{float:none;display:block;text-align:left}
 .placard-content * {padding: 0% !important;}
 ol, ul {padding-left: 20px}
 [class*=col-]{width: 100% !important;}
-#profile-wrap{width: 50% !important}
+#profile-wrap, {width: 50% !important}
 }
 #map-title{padding: unset}
 .container {position: relative;text-align: left;color: white;}
