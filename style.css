@@ -27,7 +27,7 @@ div.navbar.responsive a{float:none;display:block;text-align:left}
 .placard-content {width: 100% !important; margin: unset !important;margin-bottom: 2.5% !important;}
 .placard-content * {padding: 0% !important;}
 ol, ul {padding-left: 20px}
-[class*=col-]{width: 100% !important;}
+#map-bayarea{width: 100% !important;}
 #profile-wrap, {width: 50% !important}
 }
 #map-title{padding: unset}
