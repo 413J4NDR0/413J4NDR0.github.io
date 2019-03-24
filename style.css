@@ -1,10 +1,11 @@
-﻿body,html{background-color:#fefdfb;margin:0;font-family:Source Sans Pro,Helvetica,sans-serif;color:#000;-webkit-font-smoothing:antialiased;letter-spacing:.1px}
+﻿body,html{background-color:#202020;margin:0;font-family:Segoe UI,Helvetica,sans-serif;color:#000;-webkit-font-smoothing:antialiased;letter-spacing:.1px}
 .link{color:#8b0000;text-decoration:none}
 a {text-decoration: none; color: inherit;}
 h2, h1, h3{padding-left:7.5%}
 .details{padding-left: 7.5%; }
 ::selection{background:#ff5353; }
 .post-card:hover{background-color: #8b0000; color: white}
+
 @media screen and (max-width:975px){
 .post-card{width: 100% !important}
 .text{font-size: .75rem !important}
@@ -12,6 +13,7 @@ body, .navbar a {font-size: .75rem !important}
 .logo{display:none}
 #canvas {height: unset !important;}
 .info {top: 20% !important;}
+svg {width: inherit;height: inherit;}
 #map-wrapper {width: 100% !important;max-width: auto; max-height: 100vh;}
 .backgroundImage{height: 300px !important; min-height: unset !important}
 div.footer,div#info{font-size: .75rem !important}
@@ -58,10 +60,12 @@ blockquote.text{font-size:24px}
 #profile, #bayarea{max-width: 100%;max-height: 100%; height: auto;}
 #profile{border-radius:50%;}
 .center{margin:auto;display:block;width:fit-content; width: -moz-fit-content}
+.right{float: right;}
+.shark{position: relative;top: 15%;width: 55%}
 .center img{box-shadow:0 6px 12px 0 rgba(0,0,0,.4);border-radius:5px}
 .shadow { box-shadow: 0 0 10px rgba(0,0,0,.15), 0 3px 3px rgba(0,0,0,.15) }
 .placard-content {width: 31.3%;}
-.navbar{overflow:hidden;background-color:#660000;overflow:hidden;padding-left:10%}
+.navbar{overflow:hidden;background-color:#202020;overflow:hidden;padding-left:10%}
 .logo{float:left;padding:14px 14px}
 .navbar a{float:left;color:#fff;text-align:center;text-decoration:none;padding:14px 16px;font-size:17px}
 .navbar .dropWrap:hover,.navbar a:hover{background-color:#ddd;color:#000}
@@ -86,7 +90,7 @@ to{-webkit-transform:scale(1)}
 from{transform:scale(0)}
 to{transform:scale(1)}
 }
-.footer{background-color:#660000;color:#fff;padding:unset;padding-top:1.5%;padding-right:1.5%;padding-bottom:.75%}
+.footer{background-color:#202020;color:#fff;padding:unset;padding-top:1.5%;padding-right:1.5%;padding-bottom:.75%}
 Fading animation .fade{-webkit-animation-name:fade;-webkit-animation-duration:1.5s;animation-name:fade;animation-duration:1.5s}
 @-webkit-keyframes fade{
 from{opacity:0}
@@ -99,6 +103,6 @@ to{opacity:1}
 #map-wrapper * {width: inherit;}
 .info {position: absolute;top: 25%;background-color: #2f3f4f;border-radius: 10px;padding-left: 3%; padding-right: 3%; padding-bottom: 1.5%;display: none;width: fit-content;}
 .info h3 {white-space:nowrap; overflow:hidden;text-overflow:ellipsis;padding: unset}
-#canvas {background-color: #6c6c71; color: white;position: relative;width: 85%;padding: 15px; margin-left: 7.5% !important; margin-right: 7.5% !important} 
+#canvas {background-color: #6c6c71; color: white;position: relative;padding: 15px;} 
 #svg {max-height: inherit}
 li {padding-top: 5px}
