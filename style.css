@@ -35,7 +35,7 @@ ol, ul {padding-left: 20px}
 #map-title{padding: unset}
 .container {position: relative;text-align: left;color: white;}
 .name {position: relative;}
-.blurb {position: relative;top: 7.5%; }
+#blurb {padding-left: 7.5%; width: 85%; text-align: justify;}
 .about {position: relative;top: 10%;}
 .navbar .icon{display:none;color:#fff}
 .warning{display:none}
@@ -62,7 +62,7 @@ blockquote.text{font-size:24px}
 .center{margin:auto;display:block;width:fit-content; width: -moz-fit-content}
 .right{float: right;}
 .shark{position: relative;top: 15%;width: 100%}
-#name{position: relative;top: 15%;width: unset;}
+#name{padding-top: 15%}
 .center img{box-shadow:0 6px 12px 0 rgba(0,0,0,.4);border-radius:5px}
 .shadow { box-shadow: 0 0 10px rgba(0,0,0,.15), 0 3px 3px rgba(0,0,0,.15) }
 .placard-content {width: 31.3%;}
