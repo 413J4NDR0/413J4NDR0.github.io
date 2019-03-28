@@ -61,7 +61,8 @@ blockquote.text{font-size:24px}
 #profile{border-radius:50%;}
 .center{margin:auto;display:block;width:fit-content; width: -moz-fit-content}
 .right{float: right;}
-.shark{position: relative;top: 15%;width: 100%}
+.shark{padding-top: 15%;width: 100%}
+.nautilus{padding-left: 7.5%}
 #name{padding-top: 15%}
 .center img{box-shadow:0 6px 12px 0 rgba(0,0,0,.4);border-radius:5px}
 .shadow { box-shadow: 0 0 10px rgba(0,0,0,.15), 0 3px 3px rgba(0,0,0,.15) }
