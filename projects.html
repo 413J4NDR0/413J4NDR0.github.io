@@ -9,40 +9,41 @@
     <title>Alejandro Ortega</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-    <script src="https://ortega-alejandro.github.io/kartesian/js/snap.svg-min.js"></script>
+    <script src="https://413j4ndr0.github.io/kartesian/js/snap.svg-min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
     <div class="navbar" id="navbar1" >
         <a href="javascript:void(0);" class="mobileMenu">Menu</a>
         <img class="logo" src="logo.png" width="50px" alt="">
-        <a href="https://ortega-alejandro.github.io/">Home</a>
-        <a href="https://ortega-alejandro.github.io/projects">Projects</a>
+        <a href="./index">Home</a>
+        <a href="">Projects</a>
         <!--<a href="posts.html">Blog</a>-->
         <a href="https://ortega-alejandro.github.io/about">About</a>
         <a href="javascript:void(0);" class="icon" onclick="menu()"><i class="fas fa-bars"></i></a>
     </div>
     <div class="col-12">
-        <h2>Internet at the Speed of Light</h1>
+        <!--<h2>Internet at the Speed of Light</h1>
         <p class="text">
-            This research independent study is focused on latency reduction for distributed systems; in particular, the project is conducting experiments on several state of the art networks being implemented, from a <b>microwave-based telecommunications system</b> connecting the New York and Chicago metropolitan areas intended for financial traders to <b>satellite-based systems</b> being built in a New Space Race by private companies. I will be working with a group of academics from several universities&mdash;including my superviser Bruce Maggs&mdash;in analyzing latency, packet loss and other key metrics and whether reaching the lowest theoretical boundary for internet speed is possible for these systems. 
+            This research independent study is focused on latency reduction for distributed systems; in particular, the project is conducting experiments on several state of the art networks being implemented, from a <b>microwave-based telecommunications system</b> connecting the New York and Chicago metropolitan areas intended for financial traders to <b>satellite-based systems</b> being built in a New Space Race by private companies. I will be working with a group of academics from several universities&mdash;including my superviser Bruce Maggs&mdash;in analyzing latency, packet loss and other key metrics and whether reaching the lowest theoretical boundary for internet speed is possible for these systems.
         </p>
         <h2 >Classical Codes and Unitary Designs for Quantum Computing</h1>
         <div class="text">
             This is a research independent study I am undertaking during the Fall 2018 semester supervised by Robert Calderbank. The focus is on error correcting codes for quantum computing, which are essential to achieving fault-tolerant quantum systems. The <b>Heisenberg-Weyl group</b> \(HW_N\), where \(N=2^m\), is fundamental to quantum computation: in physics it arises as the Pauli group, where it describes the possible discrete state transitions and errors in an \(m\) qubit quantum system; in mathematics, it appears as the extraspecial group, where it provides the framework for orthogonal and symplectic geometry. The goal of the project is efficiently generating unitary designs, finite approximations of the Haar random unitaries. Haar random unitaries are essential in quantum computation but inefficient to implement for large \(m\), hence the interest in finite approximations.
 
             <ol>
-                <li>  
-                    <b>The Heisenberg-Weyl and Clifford Groups:</b> 
-                    Let \(S = \{ I_N, -I_N, i I_N , -iI_N\} \), which is a subgroup of \(HW_N\). Prove that the graph 
-                    \( \Gamma_N \) constructed from the quotient group \(HW_N/S\) is strongly regular and that the 
+                <li>
+                    <b>The Heisenberg-Weyl and Clifford Groups:</b>
+                    Let \(S = \{ I_N, -I_N, i I_N , -iI_N\} \), which is a subgroup of \(HW_N\). Prove that the graph
+                    \( \Gamma_N \) constructed from the quotient group \(HW_N/S\) is strongly regular and that the
                     automorphism group \(\text{aut}(\Gamma_N)\) is the Clifford Group \(\text{Cliff}_N\)
                 </li>
                 <li>
                     <b>Pauli Mixing:</b>
-                    Translate the concepts of Pauli Mixing to the transitivity of group actions by \(\text{Cliff}_N\) 
-                    on the vertices, edges, and non-edges of \(\Gamma_N\). Prove that the Clifford ensemble \(G\) 
+                    Translate the concepts of Pauli Mixing to the transitivity of group actions by \(\text{Cliff}_N\)
+                    on the vertices, edges, and non-edges of \(\Gamma_N\). Prove that the Clifford ensemble \(G\)
                     is Pauli Mixing
                 </li>
                 <li>
@@ -51,14 +52,14 @@
                     2-Mixing implies that the Clifford ensemble is a 3-design
                 </li>
             </ol>
-            
-        </div>
 
-        <h2 ><a class="link" target="_blank"  href="http://www.powerforall.org/peak/">Platform For Energy Access Knowledge (PEAK)</a></h1>
+        </div>-->
+
+        <!--<h2 ><a class="link" target="_blank"  href="http://www.powerforall.org/peak/">Platform For Energy Access Knowledge (PEAK)</a></h1>
         <div class="text">
             I was recruited to work on the PEAK project during the summer of 2018, adding features to the platform that improved the data pipeline in a team of three interns. There were three main objectives:
             <ol>
-                <li>  
+                <li>
                     <b>Data Extraction:</b> A significant portion of the documents in the PEAK database are PDFs, which are notoriously difficult to extract data from. Primarily, the interest was in extracting the tabular data embedded in the PDF documents in a format suitable for visualization and analysis, i.e. CSV files. The final product was an algorithm that detected tables within the PDF document using the Hough Transform and regular expressions, and extracted the tabular data into a CSV file by leveraging open-source software. The GitHub repository can be visited <a class="link" target="_blank"  href="https://github.com/ortega-alejandro/pdf-table-extraction"><b>here</b></a>
                 </li>
                 <li>
@@ -68,14 +69,14 @@
                     <b>Data Identification:</b> Although the corpus of PEAK documents is expected to grow from researchers uploading documents, there is an interest in giving the platform the ability to automate this process by identifying relevant articles from websites of interest. To this end, our team designed a webscraper that succesfully scraped all PDF and Excel documents from 18 sites of interest, and then processed these documents through a binary classifier trained on the current PEAK corpus to determine if the documents were relevant. The GitHub repository can be visited <a class="link" target="_blank"  href="https://github.com/ortega-alejandro/pdf-autoidentification"><b>here</b></a>
                 </li>
             </ol>
-        </div>
+        </div>-->
 
-        <h2><a class="link" target="_blank"  href="https://github.com/ortega-alejandro/kartesian">Kartesian</a></h1>
+        <!--<h2><a class="link" target="_blank"  href="https://github.com/ortega-alejandro/kartesian">Kartesian</a></h1>
 
         <div id="canvas">
             <h2 style="display: inline-block;" id="map-title">Kartesian</h2>
             <div class="center" id="map-wrapper" style="width: 50vw; max-height: 75vh">
-                
+
             </div>
             <div class="info" id="infobox">
                 <h3 id="entity-name"></h3>
@@ -95,7 +96,7 @@
         <div class="text">
             Final Project for Math 412/CS 434: Topological Data Analysis. We used methods from TDA to evaluate the performance of portfolios during the economic downturn of 2008 by detecting patterns in the topological morphology of mutual funds in the early months of the 2008 Recession. My contributions to this project consisted of:
             <ul>
-                <li>  
+                <li>
                     Programming the R scripts that constructed filtrations, persistence diagrams and a sliding window analysis that evaluated the topological changes of the mutual fund indices in dimension 0 and 1.
                 </li>
                 <li>
@@ -106,25 +107,25 @@
 
         <h2 ><a class="link" target="_blank"  href="https://ortega-alejandro.github.io/syrian-refugee-crisis-project">Photojournalism and the Syrian Refugee Crisis Project</a></h1>
         <div class="text">
-            Duke University Information Initiative Project analyzing the dissemination of images from the 
+            Duke University Information Initiative Project analyzing the dissemination of images from the
             Syrian Refugee Crisis. I was given significant freedom to tackle this project from my project leads,
             and my approach consisted of  My contributions to this project consisted of:
             <ul >
-                <li>  
+                <li>
                     Engineering a scalable Java application that interfaces with the AP Photos database, conducts reverse image searches for articles using AP images featuring Syrian refugees, and compiles article text into a database
                 </li>
                 <li>
                     Programming this site that contains the results of the semantic text analysis I performed in R, and interactive visualizations that contextualize the Syrian Refugee Crisis and the coverage of the crisis by news agencies I programmed in JavaScript
                 </li>
             </ul>
-        </div>
-        
-        
+        </div>-->
+
+
     </div>
 
     <div class="footer col-12" style="padding:unset">
-        <div class="col-12" style="background-color: #660000 !important; padding-top: 1.5%; padding-bottom: 3%">
-            <div class="col-5"> 
+        <div class="col-12" style="padding-top: 1.5%; padding-bottom: 3%">
+            <div class="col-5">
                 <h2 style="padding-left: unset">Profiles</h2>
                 <h3 style="padding-left: 1%">
                     <a href="https://github.com/ortega-alejandro" target="_blank" style="color: white; text-decoration: none">
@@ -138,7 +139,7 @@
                     </a>
                 </h3>
             </h2>
-                
+
             </div>
             <div class="col-7">
                 <h2 style="padding-left: unset">Contact</h2>
@@ -166,7 +167,7 @@
             }
         }
     </script>
-    
-    
+
+
 </body>
 </html>
