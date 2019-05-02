@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="icon" href="logo.png">
     <title>Alejandro Ortega</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
     <div class="navbar" id="navbar1" >
         <a href="javascript:void(0);" class="mobileMenu">Menu</a>
         <img class="logo" src="logo.png" width="50px" alt="">
-        <a href="https://ortega-alejandro.github.io/">Home</a>
-        <a href="https://ortega-alejandro.github.io/projects">Projects</a>
+        <a href="./">Home</a>
+        <a href="./projects">Projects</a>
         <!--<a href="posts.html">Blog</a>-->
-        <a href="https://ortega-alejandro.github.io/about">About</a>
+        <a href="">About</a>
         <a href="javascript:void(0);" class="icon" onclick="menu()"><i class="fas fa-bars"></i></a>
     </div>
     <!--<div class="backgroundImage"></div>-->
 
-    <div id="about-home" class="col-12" style="padding-left: 5%;padding-right: 5%;">
-        <div class="col-4">
+    <div id="about-home" class="col-12" style="padding-left: 5%;padding-right: 5%;min-height: 75vh">
+        <div class="col-3">
             <img id="profile" class="center shadow" src="img/profile.jpg" >
         </div>
-        <div class="col-8">
+        <!--<div class="col-8">
             <h2>About Me</h2>
             <div class="text" >
                 As I mentioned on my homepage, I am Alejandro Ortega, currently a senior at Duke University studying Mathematics and Computer Science. I was born in M&eacute;xico but moved to the San Francisco Bay Area in 2001 when I was two years old. I have primarily lived in <b>South San Francisco</b>, in two stints from 2001-2005 and 2009-Present, with a few years in <b>Richmond, California</b>&mdash;not Virginia&mdash;and one year in <b>Hayward</b> mixed in between. You can check out the map below for their locations relative to San Francisco, Oakland and San Jos&eacute;.
@@ -38,40 +40,41 @@
     <div class="col-12" style="padding-left: 5%;padding-right: 5%; padding-bottom: 2.5%;">
         <div class="col-8">
             <div class="text" style="padding-left: 7.5%; padding-right: 7.5%;padding-bottom: 7.5%;">
-                
+
             </div>
         </div>
 
         <div id="map-bayarea" class="col-4">
             <img src="img/bayarea.png" id="bayarea" class="shadow" alt="">
-        </div>
+        </div>-->
     </div>
 
-    <div class="footer col-12" style="padding:unset">
-        <div class="col-12" style="background-color: #660000 !important; padding-top: 1.5%; padding-bottom: 3%">
-            <div class="col-5"> 
+    <div class="footer col-12" style="padding:unset;">
+        <div class="col-12" style="padding-top: 1.5%; padding-bottom: 3%">
+            <div class="col-5">
                 <h2 style="padding-left: unset">Profiles</h2>
                 <h3 style="padding-left: 1%">
-                    <a href="https://github.com/ortega-alejandro" target="_blank" style="color: white; text-decoration: none">
-                        <i class="fab fa-github fa-2x"></i>
+                    <a href="https://github.com/413j4ndr0" target="_blank" style="color: white; text-decoration: none">
+                        <i class="fab fa-github fa-3x"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/alejandro-ortega-10373710b/" target="_blank" style="color: white; text-decoration: none">
-                        <i class="fab fa-linkedin fa-2x" style="margin-left: 10px"></i>
+                    <a href="https://www.linkedin.com/in/413j4ndr0/" target="_blank" style="color: white; text-decoration: none">
+                        <i class="fab fa-linkedin fa-3x" style="margin-left: 10px"></i>
                     </a>
-                    <a href="https://www.kaggle.com/ctrlxxx" target="_blank" style="color: white; text-decoration: none">
-                        <i class="fab fa-kaggle fa-2x" style="margin-left: 10px"></i>
-                    </a>
+
                 </h3>
             </h2>
-                
+
             </div>
-            <div class="col-7">
+            <div class="col-5">
                 <h2 style="padding-left: unset">Contact</h2>
                 <i class="fab fa-google"></i><b style="font-family: Helvetica, sans-serif">mail</b>: ortegaalejandro55
             </div>
+            <div class="col-2 left">
+                <!--<object type="image/svg+xml" data="img/nautilus.svg"></object>-->
+            </div>
         </div>
         <div class="col-12" >
-            <div class="center" >&copy; Alejandro Ortega, 2018. All Rights Reserved</div>
+            <div class="center" >&copy; Alejandro Ortega, 2018-2019. All Rights Reserved</div>
         </div>
     </div>
     <script>
@@ -83,8 +86,10 @@
                 x.className = "navbar";
             }
         }
+        $("body").css("background-image", "linear-gradient(180deg, #3d0000, #070707)");
+        $("html").css("background-image", "linear-gradient(180deg, #3d0000, #070707)");
     </script>
-    
-    
+
+
 </body>
 </html>
