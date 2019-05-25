@@ -36,7 +36,7 @@ ol, ul {padding-left: 20px}
 #map-title{padding: unset}
 .container {position: relative;text-align: left;color: white;}
 .name {position: relative;}
-.blurb {padding-left: 7.5%; text-align: left; line-height: 1.5rem;margin-top: 1.25%;}
+.blurb {padding-left: 5% !important; text-align: left; line-height: 1.5rem;margin-top: 1.25%;}
 .about {position: relative;top: 10%;}
 .navbar .icon{display:none;color:#fff}
 .warning{display:none}
