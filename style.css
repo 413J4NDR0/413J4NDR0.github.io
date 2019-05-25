@@ -1,7 +1,7 @@
 ﻿body,html{background-color: black;color: #fffeee !important;margin:0;font-family:"Montserrat";-webkit-font-smoothing:antialiased;letter-spacing:.1px}
 .link{text-decoration:underline; font-weight: bold;}
 a {text-decoration: none; color: inherit;}
-h2, h1, h3{padding-left:7.5%;}
+h2, h1, h3{padding: unset}
 .details{padding-left: 7.5%; }
 ::selection{background:#91A3B0; }
 .post-card:hover{background-color: #8b0000; color: white}
