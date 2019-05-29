@@ -42,7 +42,11 @@ ol, ul {padding-left: 20px}
 .warning{display:none}
 .mobileMenu{display:none}
 #info, .post-title {height : 100%; width: 100%; position: absolute; top: 0px;left: 0px; ;background-color: rgba(0, 0, 0, .50);padding: 3%;-webkit-animation-name:fade;-webkit-animation-duration:3.5s;animation-name:fade;animation-duration:3.5s;}
-blockquote.text{font-size:24px}
+blockquote.text{font-size:1.15em; position: relative;}
+.quotation{font-size: 1.15rem;margin: 0 auto;quotes: "\201C""\201D""\2018""\2019";padding: 10px 20px;line-height: 1.4; user-select: none;} 
+.quotation:before {font-family: Georgia, 'Times New Roman', Times, serif; content: open-quote;display: inline;height: 0;line-height: 0;left: -10px;position: relative;top: 1.5rem;color: #ccc;font-size: 3em;user-select: none;}
+.quotation::after {font-family: Georgia, 'Times New Roman', Times, serif; content: close-quote;display: inline;height: 0;line-height: 0;left: 10px;position: relative;top: 1.5rem;color: #ccc;font-size: 3em; user-select: none;}
+.cite{margin:0;text-align: right !important;font-size: 1.15em;font-style: italic;user-select: none;}
 *{box-sizing:border-box}
 .col-1{width:8.33%}
 .col-2{width:16.66%}
