@@ -1,7 +1,7 @@
-﻿body,html{background-color: #000;color: #dfddda !important;margin:0;font-family:"Montserrat";-webkit-font-smoothing:antialiased;letter-spacing:.1px}
+﻿body,html{background-color: #000;color: #E5E4E2 !important;margin:0;font-family:"Montserrat";-webkit-font-smoothing:antialiased;letter-spacing:.1px}
 .link{text-decoration:underline; font-weight: bold;}
 a {text-decoration: none; color: inherit;}
-h2, h1, h3{padding: unset}
+h2, h1, h3{padding: unset;}
 .details{padding-left: 7.5%; }
 ::selection{background:#91A3B0; }
 .post-card:hover{background-color: #8b0000; color: white}
@@ -35,8 +35,8 @@ ol, ul {padding-left: 20px}
 }
 #map-title{padding: unset}
 .container {position: relative;text-align: left;color: white;}
-.name {position: relative;}
-.blurb {padding-left: 5% !important; text-align: left; line-height: 1.5rem;margin-top: 1.25%;}
+#name {font-size: 2rem}
+.blurb {padding-right: 5% !important; text-align: left; line-height: 1.5rem;margin-top: 1.25%;}
 .about {position: relative;top: 10%;}
 .navbar .icon{display:none;color:#fff}
 .warning{display:none}
@@ -112,3 +112,10 @@ to{opacity:1}
 #canvas {color: white;position: relative;padding: 15px; padding-left: 5%;padding-right: 5%;}
 #svg {max-height: inherit}
 li {padding-top: 5px}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+.contact-icon:hover {font-size: 1.1rem}
+.contact-icon {margin-bottom: .5rem}
