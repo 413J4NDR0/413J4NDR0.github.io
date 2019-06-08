@@ -1,4 +1,4 @@
-﻿body,html{background-color: #000;color: #E5E4E2 !important;margin:0;font-family:"Montserrat";-webkit-font-smoothing:antialiased;letter-spacing:.1px; background-image: linear-gradient(180deg, #080516, #000)}
+﻿body,html{background-color: #1B1B1B;color: #E5E4E2 !important;margin:0;font-family:"Montserrat";-webkit-font-smoothing:antialiased;letter-spacing:.1px;}
 .link{text-decoration:underline; font-weight: bold;}
 a {text-decoration: none; color: inherit;}
 h2, h1, h3{padding: unset;}
@@ -113,7 +113,7 @@ li {padding-top: 5px}
 hr.style-two {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(229, 228, 226, 0.75), rgba(255, 255, 255, 0));
 }
 .contact-icon:hover {font-size: 1.1rem}
 .contact-icon {margin-bottom: .5rem}
