@@ -1,11 +1,11 @@
-﻿body,html{background-color: #1B1B1B;color: #E5E4E2 !important;margin:0;font-family:"Montserrat";-webkit-font-smoothing:antialiased;letter-spacing:.1px;}
+﻿body,html{background-color: #262626;color: #E2E6ED !important;margin:0;font-family:"Montserrat";-webkit-font-smoothing:antialiased;letter-spacing:.1px;}
 .link{text-decoration:underline; font-weight: bold;}
 a {text-decoration: none; color: inherit;}
 h2, h1, h3{padding: unset;}
 .details{padding-left: 7.5%; }
 ::selection{background:#91A3B0; }
-.post-card:hover{background-color: #8b0000; color: white}
-
+.placard:hover{background-color: #00539B;}
+.placard img {user-select: none;}
 @media screen and (max-width:975px){
 .blurb{line-height: 1rem !important}
 .post-card{width: 100% !important}
@@ -70,6 +70,8 @@ blockquote.text{font-size:1.15em; position: relative;}
 .shadow { box-shadow: 0 0 10px rgba(0,0,0,.15), 0 3px 3px rgba(0,0,0,.15) }
 .placard * {margin-bottom: 1rem;}
 .placard h3 {text-align: center}
+.placard {border-radius: 1rem}
+.row {display: flex;}
 .navbar{padding-left:5%; }
 .logo{float:left;padding:14px 14px}
 .navbar a{float:left;text-align:center;text-decoration:none;padding:14px 16px;font-size:17px}
@@ -116,6 +118,7 @@ hr.style-two {
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(229, 228, 226, 0.75), rgba(255, 255, 255, 0));
 }
-.contact-icon:hover {font-size: 1.1rem}
+.contact-icon:hover {font-size: 1.1rem;}
 .contact-icon {margin-bottom: .5rem}
-.clicker {border-left: 1px solid #fff; border-top: 1px solid #fff; padding: 1rem; border-radius: 1rem; width: 100%}
+.clicker {border-left: 1px solid #fff; border-top: 1px solid #fff; padding: 1rem; border-radius: 1rem;}
+.fa-3x:hover {color: #00539B}
