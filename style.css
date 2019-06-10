@@ -4,7 +4,7 @@ a {text-decoration: none; color: inherit;}
 h2, h1, h3{padding: unset;}
 .details{padding-left: 7.5%; }
 ::selection{background:#B5B5B5;}
-.placard:hover{background-color: #012169;}
+.placard:hover{background-color: #00539B;}
 .placard img {user-select: none;}
 @media screen and (max-width:975px){
 .blurb{line-height: 1rem !important}
