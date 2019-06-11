@@ -4,7 +4,7 @@ a {text-decoration: none; color: inherit;}
 h2, h1, h3{padding: unset;}
 .details{padding-left: 7.5%; }
 ::selection{background:#B5B5B5;}
-.placard:hover{background-color: #00539B;}
+.placard:hover{background-color: #012169;}
 .placard img {user-select: none;}
 @media screen and (max-width:975px){
 .blurb{line-height: 1rem !important}
@@ -35,7 +35,6 @@ ol, ul {padding-left: 20px}
 .container {position: relative;text-align: left;color: white;}
 #name {font-size: 2rem}
 .blurb {padding-right: 5% !important; text-align: left; line-height: 1.5rem;margin-top: 1.25%;}
-.about {position: relative;top: 10%;}
 .navbar .icon{display:none;color:#fff}
 .warning{display:none}
 .mobileMenu{display:none}
