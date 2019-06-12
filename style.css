@@ -11,6 +11,7 @@ h2, h1, h3{padding: unset;}
 .post-card{width: 100% !important}
 .text{font-size: .75rem !important}
 body, .navbar a {font-size: .75rem !important}
+.row {display: unset !important}
 .logo{display:none}
 #canvas {height: unset !important;}
 .info {top: 20% !important;}
