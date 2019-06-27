@@ -10,7 +10,9 @@ h2, h1, h3{padding: unset;}
 .films-wrapper:hover .film-text{background: rgba(0, 0, 0, .90);}
 .films-wrapper:hover * {color: inherit}
 .films-wrapper {padding: 1rem}
-.films-wrapper:hover {background-color: #8c1515; border-radius: 1rem}
+.three-four-star:hover {background-color: #8c1515; border-radius: 1rem}
+.one-two-star:hover {background-color: #333; border-radius: 1rem}
+.five-star:hover {background-color: #FFCC00; border-radius: 1rem}
 .films {background-size: 100%;height:69vh; position: relative;}
 .films * {text-align: center}
 .watched {font-size: .8rem;}
