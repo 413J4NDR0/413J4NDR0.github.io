@@ -9,6 +9,16 @@
     <link rel="icon" href="../logo.png">
     <title>Summer of Cinema 2019 📽</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script>
+        function menu() {
+            var x = document.getElementById("navbar1");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 </head>
 <body>
   <div class="col-12" style="padding:unset">
@@ -41,7 +51,7 @@
                 <div class="placard films" style="background-image: url(../img/films/john_wick_3.jpg);">
                     <div class="film-text center">
                         <h3 ><i>John Wick: Chapter 3 - Parabellum</i> (2019)</h3>
-                        <div class="review">I watched the <i>John Wick</i> film series in three days, culminating with the third installment at Tanforan. Though some of the symbolism is lost in the fray, tight production delivers unrelenting, beautiful action every time. The <i>John Wick</i> films have marked and executed my heart.</div>
+                        <div class="review">I watched the <i>John Wick</i> film series in three days, culminating with the third installment at Tanforan. Though some of the storytelling is lost in the fray, tight production delivers unrelenting, beautiful action every time. The <i>John Wick</i> films have marked and executed my heart.</div>
                         <div class="watched">Watched at my local theatre Century at Tanforan on 18 June 2019</div>
                     </div>
                 </div>
@@ -105,16 +115,8 @@
             <div class="center" >&copy; Alejandro Ortega, 2018-2019. All Rights Reserved</div>
         </div>
     </div>
-    <script>
-        function menu() {
-            var x = document.getElementById("navbar1");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
-        }
-    </script>
+    <script src="omdb.js"></script>
+    
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 </body>
