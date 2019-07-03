@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="js/velocity.min.js"></script>
+    <script src="js/mobile.js"></script>
     <title>Alejandro Ortega</title>
 </head>
 <body>
@@ -17,8 +17,6 @@
     <div class="navbar" id="navbar1" >
         <a href="javascript:void(0);" class="mobileMenu">Menu</a>
         <a href="">Home</a>
-        <!--<a href="./projects">Projects</a>-->
-        <!-- <a href="./about">About</a> -->
         <a href="javascript:void(0);" class="icon" onclick="menu()"><i class="fas fa-bars"></i></a>
     </div>
   </div>
@@ -27,7 +25,7 @@
         <hr class="style-two"/>
     </div>
     <div class="col-4 text">
-        <div class="contact-icon"><span style="user-select: none"><i class="fab fa-google"></i><b style="font-family: Helvetica, sans-serif">mail</b>:</span> ortegaalejandro55</div>
+        <div class="contact-icon"><span style="user-select: none; -moz-user-select: none"><i class="fab fa-google"></i><b style="font-family: Helvetica, sans-serif">mail</b>:</span> ortegaalejandro55</div>
         <div class="contact-icon"><a href="https://github.com/413j4ndr0" target="_blank" style="text-decoration: none">
             <i class="fab fa-github-alt fa-1x"></i> GitHub
         </a></div>
@@ -135,7 +133,7 @@
         <div class="col-12" style="padding-top: 1.5%; padding-bottom: 3%">
             <div class="col-6">
                 <h2>Profiles</h2>
-                <div style="padding-left: 1%;user-select: none; font-size: 1.15rem">
+                <div style="padding-left: 1%;user-select: none; font-size: 1.15rem; -moz-user-select: none">
                     <a href="https://github.com/413j4ndr0" target="_blank" style="text-decoration: none">
                         <i class="fab fa-github fa-3x icodk"></i>
                     </a>
@@ -150,7 +148,7 @@
             </div>
             <div class="col-6">
                 <h2 style="padding-left: unset">Contact</h2>
-                <span style="user-select: none"><i class="fab fa-google"></i><b style="font-family: Helvetica, sans-serif">mail</b>:</span> ortegaalejandro55
+                <span style="user-select: none; -moz-user-select: none"><i class="fab fa-google"></i><b style="font-family: Helvetica, sans-serif">mail</b>:</span> ortegaalejandro55
             </div>
         </div>
     </div>    
@@ -158,17 +156,6 @@
     <div class="col-12" >
         <div class="center" >&copy; Alejandro Ortega, 2018-2019. All Rights Reserved</div>
     </div>
-    <script>
-        function menu() {
-            var x = document.getElementById("navbar1");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
-        }
-    </script>
-
 
 </body>
 </html>

@@ -5,26 +5,9 @@ h2, h1, h3{padding: unset;}
 .details{padding-left: 7.5%; }
 ::selection{background:slategrey;}
 .project:hover{background-color: #012169;}
-.film-text{ border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem; padding: 1rem;float: right; position: absolute; bottom: 0px; margin-bottom: 0px !important; width: 100% !important; }
-.film-text * {color: transparent; -moz-user-select: none}
-.films-wrapper:hover .film-text{background: rgba(0, 0, 0, .90);}
-.films-wrapper:hover * {color: inherit}
-.films-wrapper:hover .rating-golden-reel {color: #FFCC00}
-.films-wrapper {padding: 1rem}
 .film-border:hover {background-color: #8c1515; border-radius: 1rem}
 .great-border:hover {background-color: #FFCC00; border-radius: 1rem}
-.films {background-size: 100%;height:67vh; position: relative;}
-.films * {text-align: center}
-.watched {font-size: .8rem;}
-.placard img {user-select: none;}
-/* [class*=rating-] {font-size: 1.25rem;} */
-.rating-one-reel::before {content: "📽"}
-.rating-two-reels::before {content: "📽📽"}
-.rating-three-reels::before {content: "📽📽📽"}
-.rating-four-reels::before {content: "📽📽📽📽"}
-.rating-golden-reel::before {content: "📽📽📽📽";}
-/* .rating-system [class*=rating-] {font-size: unset !important;} */
-.gold {color: #FFCC00}
+.placard img {user-select: none;-moz-user-select: none;}
 @media screen and (max-width:975px){
 .blurb{line-height: 1rem !important}
 .post-card{width: 100% !important}
@@ -60,10 +43,6 @@ ol, ul {padding-left: 20px}
 .mobileMenu{display:none}
 #info, .post-title {height : 100%; width: 100%; position: absolute; top: 0px;left: 0px; ;background-color: rgba(0, 0, 0, .50);padding: 3%;-webkit-animation-name:fade;-webkit-animation-duration:3.5s;animation-name:fade;animation-duration:3.5s;}
 blockquote.text{font-size:1.15em; position: relative;}
-.quotation{font-size: 1.15rem;margin: 0 auto;quotes: "\201C""\201D""\2018""\2019";padding: 10px 20px;line-height: 1.4; user-select: none;} 
-.quotation:before {font-family: Georgia, 'Times New Roman', Times, serif; content: open-quote;display: inline;line-height: 0;left: -10px;position: relative;top: 1.5rem;color: #ccc;font-size: 3em;user-select: none;}
-.quotation::after {font-family: Georgia, 'Times New Roman', Times, serif; content: close-quote;display: inline;line-height: 0;left: 10px;position: relative;top: 1.5rem;color: #ccc;font-size: 3em; user-select: none;}
-.cite{margin:0;text-align: right !important;font-size: 1.15em;font-style: italic;user-select: none;}
 *{box-sizing:border-box}
 .col-1{width:8.33%}
 .col-2{width:16.66%}
