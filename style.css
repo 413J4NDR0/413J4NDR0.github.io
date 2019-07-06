@@ -4,7 +4,7 @@ a {text-decoration: none; color: inherit;}
 h2, h1, h3{padding: unset;}
 .details{padding-left: 7.5%; }
 ::selection{background:slategrey;}
-.project:hover{background-color: #012169;}
+.project:hover{background-color: #00539B;}
 .film-border:hover {background-color: #8c1515; border-radius: 1rem}
 .great-border:hover {background-color: #FFCC00; border-radius: 1rem}
 .placard img {user-select: none;-moz-user-select: none;}
